@@ -10,11 +10,11 @@
 
 @layer components {
     .paragraph {
-        @apply text-lg
+        @apply text-2xl
     }
 
     .iterating-list-item {
-        @apply flex items-center text-2xl
+        @apply flex items-center
     }
 
     .dot-circle {
@@ -23,6 +23,16 @@
 
     .header-link {
         @apply cursor-pointer px-3 py-1 bg-transparent rounded-full;
+    }
+
+    .property-list-item {
+        @apply flex items-center justify-center px-7 py-2 ;
+        @apply rounded-full border-[1px] bg-transparent border-white;
+        @apply uppercase text-xl border-opacity-60;
+    }
+
+    .project-link {
+        @apply underline paragraph
     }
 }
 
@@ -39,5 +49,5 @@
 }
 
 .header-link:hover {
-    animation: slide-right 1s;
+    animation: slide-right .7s;
 }

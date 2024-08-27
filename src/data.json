@@ -1,0 +1,156 @@
+{
+    "projects": [
+        {
+            "name": "telegram-clone",
+            "title": {
+                "main": "Telegram Clone",
+                "second": "- messenger with all original functionality."
+            },
+            "description": "This is a full-featured chat application that I developed independently. Users can create groups and contacts, modify them, connect in real time, add friends, and search for existing ones. The app includes functions for managing chats and messages, such as copying, deleting, and forwarding. I have implemented token authentication, OAuth2, and other security best practices to ensure a safe user experience.",
+            "properties": [
+                "real time", "databases", "authentication"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/dimayhoo/Messenger"
+                },
+                {
+                    "name": "Live preview",
+                    "href": "https://messenger-s3fg.onrender.com"
+                }
+            ],
+            "overviewBackground": "bg-black",
+            "images": [
+                "", "", "", "" 
+            ]
+        },
+        {
+            "name": "bad-weather-notifier",
+            "title": {
+                "main": "Bad Weather Notifier",
+                "second": "- online scheduler of weather notifications."
+            },
+            "description": "How often do you miss out on sports or family time due to bad weather? This application helps you stay informed about precipitation in advance. It's simple: set your schedules, and receive weather forecasts based on your location at specific times. You can choose to receive notifications once or on selected days each week. The app uses weather APIs to provide accurate and reliable forecasts. With this application, you'll never have to worry about unexpected weather ruining your plans again.",
+            "properties": [
+                "react", "web design", "api integration"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/dimayhoo/Bad-Weather-Notifier"
+                },
+                {
+                    "name": "Live preview",
+                    "href": "https://bad-weather-notifier-server.onrender.com"
+                }
+            ],
+            "overviewBackground": "bg-blue-500",
+            "images": [
+                "", "", "", ""
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "icon": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "name": "MySQL"
+        },
+        {
+            "icon": "https://www.mongodb.com/assets/images/global/leaf.svg",
+            "name": "MongoDB"
+        },
+        {
+            "icon": "https://redis.io/images/redis-white.png",
+            "name": "Redis"
+        },
+        {
+            "icon": "https://firebase.google.com/images/brand-guidelines/logo-vertical.png",
+            "name": "Firebase"
+        },
+        {
+            "icon": "https://flask.palletsprojects.com/en/2.0.x/_static/flask-icon.png",
+            "name": "Flask"
+        },
+        {
+            "icon": "https://nodejs.org/static/images/logo.svg",
+            "name": "Node.js"
+        },
+        {
+            "icon": "https://fastapi.tiangolo.com/img/logo/logo.svg",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "https://reactjs.org/logo-og.png",
+            "name": "React"
+        },
+        {
+            "icon": "https://svelte.dev/favicon.png",
+            "name": "Svelte"
+        },
+        {
+            "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+            "name": "HTML"
+        },
+        {
+            "icon": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+            "name": "CSS"
+        },
+        {
+            "icon": "https://tailwindcss.com/_next/static/media/logo.2e9e4b8b.svg",
+            "name": "Tailwind CSS"
+        },
+        {
+            "icon": "https://git-scm.com/images/logos/git-icon.svg",
+            "name": "Git"
+        },
+        {
+            "icon": "https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png",
+            "name": "Docker"
+        },
+        {
+            "icon": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo.png",
+            "name": "NGINX"
+        },
+        {
+            "icon": "https://www.jenkins.io/images/logos/jenkins.png",
+            "name": "Jenkins"
+        },
+        {
+            "icon": "https://stripe.com/img/v3/home/logos/stripe.svg",
+            "name": "Stripe"
+        },
+        {
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Algorithm_Icon.png",
+            "name": "Data Structures and Algorithms"
+        },
+        {
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/RESTful_API_Logo.png",
+            "name": "REST APIs"
+        },
+        {
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/OAuth_2.0_logo.svg",
+            "name": "OAuth2"
+        },
+        {
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9e/JWT.svg",
+            "name": "JWT"
+        },
+        {
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Software_testing_icon.png",
+            "name": "Software Testing"
+        },
+        {
+            "icon": "https://socket.io/images/logo.svg",
+            "name": "Socket.IO"
+        },
+        {
+            "icon": "https://kafka.apache.org/images/logo.png",
+            "name": "Kafka"
+        },
+        {
+            "icon": "https://graphql.org/img/logo.svg",
+            "name": "GraphQL"
+        }
+    ]
+}
