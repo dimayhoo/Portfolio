@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@layer components {
+    .paragraph {
+        @apply text-lg
+    }
+
+    .iterating-list-item {
+        @apply flex items-center text-2xl
+    }
+
+    .dot-circle {
+        @apply rounded-full bg-black w-3 h-3 mx-20
+    }
+
+    .header-link {
+        @apply cursor-pointer px-3 py-1 bg-transparent rounded-full;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        background-color: transparent;
+        color:black;
+    }
+
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
+.header-link:hover {
+    animation: slide-right 1s;
+}
