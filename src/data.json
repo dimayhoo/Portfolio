@@ -53,104 +53,126 @@
     ],
     "skills": [
         {
-            "icon": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
             "name": "MySQL"
         },
         {
-            "icon": "https://www.mongodb.com/assets/images/global/leaf.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
             "name": "MongoDB"
         },
         {
-            "icon": "https://redis.io/images/redis-white.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
             "name": "Redis"
         },
         {
-            "icon": "https://firebase.google.com/images/brand-guidelines/logo-vertical.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
             "name": "Firebase"
         },
         {
-            "icon": "https://flask.palletsprojects.com/en/2.0.x/_static/flask-icon.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
             "name": "Flask"
         },
         {
-            "icon": "https://nodejs.org/static/images/logo.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             "name": "Javascript (Node.js)"
         },
         {
-            "icon": "https://fastapi.tiangolo.com/img/logo/logo.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
             "name": "FastAPI"
         },
         {
-            "icon": "https://reactjs.org/logo-og.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "name": "React"
         },
         {
-            "icon": "https://svelte.dev/favicon.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
             "name": "Svelte"
         },
         {
-            "icon": "https://cdn.worldvectorlogo.com/logos/html5.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
             "name": "HTML"
         },
         {
-            "icon": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
             "name": "CSS"
         },
         {
-            "icon": "https://tailwindcss.com/_next/static/media/logo.2e9e4b8b.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
             "name": "Tailwind CSS"
         },
         {
-            "icon": "https://git-scm.com/images/logos/git-icon.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             "name": "Git"
         },
         {
-            "icon": "https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
             "name": "Docker"
         },
         {
-            "icon": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
             "name": "NGINX"
         },
         {
-            "icon": "https://www.jenkins.io/images/logos/jenkins.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
             "name": "Jenkins"
         },
         {
-            "icon": "https://stripe.com/img/v3/home/logos/stripe.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg",
             "name": "Stripe"
         },
         {
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Algorithm_Icon.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
             "name": "Data Structures and Algorithms"
         },
         {
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/RESTful_API_Logo.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg",
             "name": "REST APIs"
         },
         {
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/OAuth_2.0_logo.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth2/oauth2-original.svg",
             "name": "OAuth2"
         },
         {
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9e/JWT.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-original.svg",
             "name": "JWT"
         },
         {
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Software_testing_icon.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/testing/testing-original.svg",
             "name": "Software Testing"
         },
         {
-            "icon": "https://socket.io/images/logo.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
             "name": "Socket.IO"
         },
         {
-            "icon": "https://kafka.apache.org/images/logo.png",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kafka/kafka-original.svg",
             "name": "Kafka"
         },
         {
-            "icon": "https://graphql.org/img/logo.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-original.svg",
             "name": "GraphQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/software/software-original.svg",
+            "name": "Software Architecture"
+        }
+    ],
+    "socialLinks": [
+        {
+            "href": "",
+            "name": "GitHub"
+        },
+        {
+            "href": "",
+            "name": "LinkedIn"
+        },
+        {
+            "href": "",
+            "name": "X (Twitter)"
+        },
+        {
+            "href": "",
+            "name": "Resume"
         }
     ]
 }

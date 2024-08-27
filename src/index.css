@@ -18,7 +18,7 @@
     }
 
     .dot-circle {
-        @apply rounded-full bg-black w-3 h-3 mx-20
+        @apply rounded-full bg-black w-[0.6rem] h-[0.6rem] mx-20
     }
 
     .header-link {
@@ -33,6 +33,19 @@
 
     .project-link {
         @apply underline paragraph
+    }
+
+    .vertical-iterating-line {
+        @apply rounded-xl bg-white bg-opacity-10 w-1/2 px-10 py-6 flex;
+        @apply flex-col items-center max-h-[32rem] overflow-hidden
+    }
+
+    .vertical-line-element {
+        @apply flex items-center space-x-3 paragraph text-center
+    }
+
+    .subheader {
+        @apply text-6xl font-normal
     }
 }
 

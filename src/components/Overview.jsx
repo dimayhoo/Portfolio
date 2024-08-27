@@ -10,13 +10,13 @@ function Overview({ data }) {
 
 
   return (
-    <section className='mt-16 px-14 relative'>
+    <section className='mt-16 relative px-14'>
         <div className={`-z-10 absolute left-0 top-0 h-screen w-full 
         ${colorVariants[data.background]}`}></div>
         <div className='flex pb-24 pt-32 text-white'>
             <div className='max-w-5xl'>
                 <div>
-                    <h2 className='text-6xl font-normal'>
+                    <h2 className='subheader'>
                         <span className='font-semibold'>{data.title.main} </span>
                         {data.title.second}
                     </h2>

@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx';
 import Overview from './components/Overview.jsx';
 import data from './data.json'; // qq How to import json object file in react?
 import Expertise from './components/Expertise.jsx';
+import Contact from './components/Contact.jsx';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         ))
       }
       <Expertise data={data.skills} />
+      <Contact />
     </div>
   )
 }
