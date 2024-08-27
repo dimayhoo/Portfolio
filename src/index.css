@@ -47,6 +47,10 @@
     .subheader {
         @apply text-6xl font-normal
     }
+
+    .link {
+        @apply px-2 py-2 underline
+    }
 }
 
 @keyframes slide-right {
