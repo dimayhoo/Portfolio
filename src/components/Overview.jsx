@@ -2,9 +2,17 @@ import React from 'react'
 import DoubleImageSection from './DoubleImageSection.jsx';
 
 function Overview({ data }) {
+  // qq What is the problem with dynamic computing in tailwind? How to fix?
+  const colorVariants = {
+    'blue': 'bg-blue-500',
+    'black': 'bg-black'
+  }
+
+
   return (
     <section className='mt-16 px-14 relative'>
-        <div className={`-z-10 absolute left-0 top-0 h-screen w-full ${data.overviewBackground}`}></div>
+        <div className={`-z-10 absolute left-0 top-0 h-screen w-full 
+        ${colorVariants[data.background]}`}></div>
         <div className='flex pb-24 pt-32 text-white'>
             <div className='max-w-5xl'>
                 <div>

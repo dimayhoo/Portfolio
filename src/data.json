@@ -20,7 +20,7 @@
                     "href": "https://messenger-s3fg.onrender.com"
                 }
             ],
-            "overviewBackground": "bg-black",
+            "background": "black",
             "images": [
                 "", "", "", "" 
             ]
@@ -45,7 +45,7 @@
                     "href": "https://bad-weather-notifier-server.onrender.com"
                 }
             ],
-            "overviewBackground": "bg-blue-500",
+            "background": "blue",
             "images": [
                 "", "", "", ""
             ]
@@ -74,7 +74,7 @@
         },
         {
             "icon": "https://nodejs.org/static/images/logo.svg",
-            "name": "Node.js"
+            "name": "Javascript (Node.js)"
         },
         {
             "icon": "https://fastapi.tiangolo.com/img/logo/logo.svg",
