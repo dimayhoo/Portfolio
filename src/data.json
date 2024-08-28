@@ -178,5 +178,27 @@
             "href": "",
             "name": "Resume"
         }
-    ]
+    ],
+    "aboutMe": {
+        "title": "An advanced backend & full-stack developer based in Perm, Russia, dedicated to producing high-quality work.",
+        "description": [
+            {
+                "header": "Passion for Problem Solving",
+                "text": "I thrive on tackling challenges and enjoy the coding logic. My commitment to effective, scalable code and a focus on delivering value drive my work. I approach every project with persistence and dedication, being confident I see it through to completion."
+            },
+            {
+                "header": "Building Meaningful Connections",
+                "text": "One of my core aspirations is to foster genuine relationships, friends and create loyal partnerships. I'm ready to put efforts to provide exceptional service and maintain strong connections. Feel free to reach out to me—I'm always open to communicate and collaborate, whether in a formal setting or just to share ideas!"
+            },
+            {
+                "header": "Embracing Remote Work",
+                "text": "I have a strong affinity for remote work, as it enhances my productivity and efficiency. This flexibility allows me to focus on what I love: developing innovative solutions without friction."
+            },
+            {
+                "header": "Eager for Growth",
+                "text": "I am constantly seeking opportunities to push my limits and expand my knowledge. I am open to internships, mentorships, or any experiences that will help me grow as a developer. Let's learn and innovate together!"
+            }
+        ]
+    }
+    
 }

@@ -51,6 +51,10 @@
     .link {
         @apply px-2 py-2 underline
     }
+
+    .about-subheader {
+        @apply text-4xl 
+    }
 }
 
 @keyframes slide-right {
@@ -67,4 +71,17 @@
 
 .header-link:hover {
     animation: slide-right .7s;
+}
+
+#about-me-popover {
+    scrollbar-width:none;
+
+    &:popover-open {
+        display: flex;
+    }
+
+    &:popover-open::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);
+        scroll-behavior: none;
+    }
 }

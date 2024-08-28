@@ -1,12 +1,14 @@
 import React from 'react';
 import data from '../data.json';
 
-function SocialLinks() {
+function SocialLinks({ color='white', textSize='3xl' }) {
   return (
-    <div className='flex items-center space-x-12 justify-start text-white'>
+    <div className={`flex items-center space-x-12 justify-start 
+    ${color === 'black' ? 'text-black' : 'text-white'}`}>
         {data.socialLinks.map(link => (
             <a key={link.name} href={link.href} 
-            className='paragraph link text-3xl'>{link.name}</a>
+            className={`paragraph link
+            ${ textSize === '3xl' ? 'text-3xl' : ''}`}>{link.name}</a>
         ))}
     </div>
   )

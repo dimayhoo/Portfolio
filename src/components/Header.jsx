@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import data from '../data.json';
+import ContactButton from './ContactButton';
+import SocialLinks from './SocialLinks';
 
-function Header({ isName }) {
+function Header() {
   return (
     <div className='z-50 fixed top-0 left-14 right-14 flex items-center justify-between h-16 text-xl'>
         <div>
@@ -11,12 +14,33 @@ function Header({ isName }) {
                 <a href="" className='header-link'>
                     Works, 
                 </a>
-                <a href="" className='header-link'>
+                <button className='header-link' popovertarget="about-me-popover">
                     About, 
-                </a>
+                </button>
                 <a href="dmitry_savkov@mail.ru" className='header-link'>
                     Contact
                 </a>
+            </div>
+            <div id="about-me-popover" popover="auto" className='
+            h-full fixed right-0 left-auto w-7/12 flex-col space-y-20
+            py-20 px-14 paragraph'>
+                <div className='flex justify-between items-center'>
+                    <img alt="my avatar" className='aspect-square w-12 rounded-xl'/>
+                    <button popovertarget="about-me-popover" popovertargetaction="hid"
+                    className='border-[1px] border-black px-10 py-3 bg-white
+                    hover:bg-black hover:text-white transition-all duration-300 rounded-[2rem]'>
+                        Close
+                    </button>
+                </div>
+                <h3 className='about-subheader'>{data.aboutMe.title}</h3>
+                {data.aboutMe.description.map((item, i) => (
+                    <div key={`item${i}`} className=''>
+                        <h3 className='about-subheader mb-4'>{item.header}</h3>
+                        <p className='text-gray-700'>{item.text}</p>
+                    </div>
+                ))}
+                <ContactButton />
+                <SocialLinks color={'black'} textSize={'2xl'} />
             </div>
         </div>
     </div>
