@@ -12,8 +12,8 @@
     /* qq How to control styles by data-attribute and why is it useful? */ 
     /* qq What is the problem of using transition with transform? */
     /* qq How to add bottom moving border on hover of a link? */
-    .bottom-line-animated {
-        @apply relative; 
+    .bottom-line-animated, .animated-to-top {
+        @apply relative overflow-hidden; 
     }
     
     .bottom-line-animated::after {
@@ -23,6 +23,17 @@
     
     .bottom-line-animated:hover::after {
         @apply scale-x-100 origin-left;
+    }
+
+    .animated-to-top::after {
+        content: 'Let\'s connect';
+        @apply absolute h-full w-full -bottom-[97%] left-0 bg-black;
+        @apply rounded-3xl text-white transition-all duration-500;
+        @apply flex items-center justify-center ease-out;
+    }
+
+    .animated-to-top:hover::after {
+        @apply bottom-0
     }
 
     .paragraph {
@@ -39,6 +50,7 @@
 
     .header-link {
         @apply cursor-pointer px-3 py-1 bg-transparent rounded-full;
+        @apply transition-all duration-200 ease-out hover:bg-black hover:text-white
     }
 
     .property-list-item {
@@ -48,7 +60,7 @@
     }
 
     .project-link {
-        @apply bottom-line-animated paragraph
+        @apply underline paragraph transition-all duration-500 hover:text-gray-300;
     }
 
     .vertical-iterating-line {
@@ -74,22 +86,18 @@
     .animated-vertical-line {
         @apply flex flex-col items-center overflow-hidden
     }
+
 }
 
-@keyframes slide-right {
+
+@keyframes slide-left {
     from {
-        background-color: transparent;
-        color:black;
+        right: -80%;
     }
 
     to {
-        background-color: black;
-        color: white;
+        right: 0;
     }
-}
-
-.header-link:hover {
-    animation: slide-right .7s;
 }
 
 #about-me-popover {
@@ -97,26 +105,13 @@
 
     &:popover-open {
         display: flex;
+        animation: slide-left 0.4s ease;
     }
 
     &:popover-open::backdrop {
         background-color: rgba(0, 0, 0, 0.5);
         scroll-behavior: none;
     }
-}
-
-@keyframes infinite-horizontal {
-    from {
-        transform: translateY(calc(-60%));
-    }
-
-    to {
-        transform: translateY(calc(0))
-    }
-}
-
-.animated-vertical-line {
-    animation: infinite-horizontal 5s linear infinite;
 }
 
 
@@ -133,3 +128,7 @@
 .horizontal-scroll-container:hover .horizontal-scroller {
     animation-play-state: paused;
 }
+
+
+
+
