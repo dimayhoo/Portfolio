@@ -19,23 +19,42 @@ function Hero() {
             </div>
         </div>
         {/** qq How to align a div at the bottom of a section that is 100vh in height? */}
-        <ul className='h-[5.5rem] self-end w-full bg-green-100 flex items-center'>
-            <li className='paragraph iterating-list-item'>
-                <div className='dot-circle'></div>
-                <p className=''>Problem solving</p>
-            </li>
-            <li className='paragraph iterating-list-item'>
-                <div className='dot-circle'></div>
-                <p className=''>Speed & performance</p>
-            </li>
-            <li className='paragraph iterating-list-item'>
-                <div className='dot-circle'></div>
-                <p className=''>Decesion making</p>
-            </li>
-            <li className='paragraph iterating-list-item'>
-                <div className='dot-circle'></div>
-                <p className=''>Genuine connections</p>
-            </li>
+        <ul className='h-[5.5rem] self-end w-full bg-green-100
+         flex items-center overflow-hidden horizontal-scroll-container'>
+            <div className='flex items-center text-nowrap horizontal-scroller'>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Problem solving</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Speed & performance</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Decesion making</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Genuine connections</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Problem solving</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Speed & performance</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Decesion making</p>
+                </li>
+                <li className='paragraph iterating-list-item'>
+                    <div className='dot-circle'></div>
+                    <p className=''>Genuine connections</p>
+                </li>
+            </div>
         </ul>
 
     </section>

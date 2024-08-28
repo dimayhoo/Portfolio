@@ -36,12 +36,11 @@
     }
 
     .vertical-iterating-line {
-        @apply rounded-xl bg-white bg-opacity-10 w-1/2 px-10 py-6 flex;
-        @apply flex-col items-center max-h-[32rem] overflow-hidden
+        @apply rounded-xl bg-white bg-opacity-10 w-1/2 px-10 py-6 max-h-[32rem] overflow-hidden 
     }
 
     .vertical-line-element {
-        @apply flex items-center space-x-3 paragraph text-center
+        @apply flex items-center space-x-3 paragraph text-center justify-center
     }
 
     .subheader {
@@ -54,6 +53,10 @@
 
     .about-subheader {
         @apply text-4xl 
+    }
+
+    .animated-vertical-line {
+        @apply flex flex-col items-center overflow-hidden
     }
 }
 
@@ -84,4 +87,34 @@
         background-color: rgba(0, 0, 0, 0.5);
         scroll-behavior: none;
     }
+}
+
+@keyframes infinite-horizontal {
+    from {
+        transform: translateY(calc(-60%));
+    }
+
+    to {
+        transform: translateY(calc(0))
+    }
+}
+
+.animated-vertical-line {
+    animation: infinite-horizontal 5s linear infinite;
+}
+
+
+/* qq How to create iterating line? How to pause animation on hover?  */
+@keyframes scroll {
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+.horizontal-scroller {
+    animation: scroll 15s linear infinite;
+}
+
+.horizontal-scroll-container:hover .horizontal-scroller {
+    animation-play-state: paused;
 }
