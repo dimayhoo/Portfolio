@@ -9,6 +9,22 @@
 }
 
 @layer components {
+    /* qq How to control styles by data-attribute and why is it useful? */ 
+    /* qq What is the problem of using transition with transform? */
+    /* qq How to add bottom moving border on hover of a link? */
+    .bottom-line-animated {
+        @apply relative; 
+    }
+    
+    .bottom-line-animated::after {
+        content: '';
+        @apply absolute w-full h-0.5 bg-white bottom-0 left-0 scale-x-0 origin-right transition-transform duration-200 ease-in;
+    }
+    
+    .bottom-line-animated:hover::after {
+        @apply scale-x-100 origin-left;
+    }
+
     .paragraph {
         @apply text-2xl
     }
@@ -32,7 +48,7 @@
     }
 
     .project-link {
-        @apply underline paragraph
+        @apply bottom-line-animated paragraph
     }
 
     .vertical-iterating-line {
@@ -48,7 +64,7 @@
     }
 
     .link {
-        @apply px-2 py-2 underline
+        @apply px-2 py-2 bottom-line-animated 
     }
 
     .about-subheader {
