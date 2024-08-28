@@ -18,7 +18,6 @@ function Hero() {
                 <ContactButton />
             </div>
         </div>
-        {/** qq How to align a div at the bottom of a section that is 100vh in height? */}
         <ul className='h-[5.5rem] self-end w-full bg-green-100
          flex items-center overflow-hidden horizontal-scroll-container'>
             <div className='flex items-center text-nowrap horizontal-scroller'>

@@ -2,7 +2,6 @@ import React from 'react'
 import DoubleImageSection from './DoubleImageSection.jsx';
 
 function Overview({ data }) {
-  // qq What is the problem with dynamic computing in tailwind? How to fix?
   const colorVariants = {
     'blue': 'bg-blue-500',
     'black': 'bg-black'

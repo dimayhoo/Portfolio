@@ -104,7 +104,6 @@
 }
 
 
-/* qq How to create iterating line? How to pause animation on hover?  */
 @keyframes scroll {
     to {
         transform: translateX(-50%)
