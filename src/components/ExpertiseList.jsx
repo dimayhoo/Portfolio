@@ -1,20 +1,16 @@
 import React from 'react'
 
-function ExpertiseList({ data }) {
+function ExpertiseList({ skill }) {
+  console.log(skill)
   return (
-    <ul className='vertical-iterating-line'>
-      <div className='animated-vertical-line'>
-        {data.map(skill => (
-            <li key={skill.name}>
-                <div className='vertical-line-element'>
-                    <img src={skill.icon} alt="icon" width={42} height={42} />
-                    <span className='max-w-[14rem]'>{skill.name}</span>
-                </div>
-                <div className="dot-circle my-8 mx-auto"></div>
-            </li>)
-        )}
+    <li className='double-skill'>
+      <div className='skill'>
+        <img alt="logo" src={skill[0].icon} className="opacity-85" width={50} height={50} />        
       </div>
-    </ul>
+      <div className='skill'>
+          <img alt="logo" src={skill[1].icon} className="opacity-85" width={50} height={50} />
+      </div>
+    </li>
   )
 }
 

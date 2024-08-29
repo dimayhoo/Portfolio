@@ -63,12 +63,12 @@
         @apply underline paragraph transition-all duration-500 hover:text-gray-300;
     }
 
-    .vertical-iterating-line {
-        @apply rounded-xl bg-white bg-opacity-10 w-1/2 px-10 py-6 max-h-[32rem] overflow-hidden 
+    .double-skill {
+        @apply flex flex-col space-y-4 even:mt-8
     }
 
-    .vertical-line-element {
-        @apply flex items-center space-x-3 paragraph text-center justify-center
+    .skill {
+        @apply aspect-square w-[6.6rem] rounded-lg bg-white bg-opacity-70 flex items-center justify-center
     }
 
     .subheader {

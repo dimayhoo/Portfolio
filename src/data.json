@@ -53,52 +53,64 @@
     ],
     "skills": [
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-            "name": "MySQL"
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "name": "HTML"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-            "name": "MongoDB"
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/software/software-original.svg",
+            "name": "Software Architecture"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-            "name": "Redis"
+            "icon": "https://static-00.iconduck.com/assets.00/file-type-nginx-icon-449x512-1lfsrxx4.png",
+            "name": "NGINX"
         },
         {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
             "name": "Firebase"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-            "name": "Flask"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-            "name": "Javascript (Node.js)"
-        },
-        {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
             "name": "FastAPI"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            "name": "React"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-            "name": "Svelte"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            "name": "HTML"
+            "icon": "https://static-00.iconduck.com/assets.00/file-type-js-official-icon-512x512-z7m56h91.png",
+            "name": "Javascript (Node.js)"
         },
         {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
             "name": "CSS"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+            "name": "Jenkins"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+            "name": "Svelte"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "name": "MySQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+            "name": "Flask"
+        },
+        {
+            "icon": "https://static-00.iconduck.com/assets.00/file-type-tailwind-icon-512x307-l0anq79h.png",
             "name": "Tailwind CSS"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "name": "React"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-original.svg",
+            "name": "GraphQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+            "name": "Redis"
         },
         {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -109,14 +121,6 @@
             "name": "Docker"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
-            "name": "NGINX"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-            "name": "Jenkins"
-        },
-        {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg",
             "name": "Stripe"
         },
@@ -125,36 +129,39 @@
             "name": "Data Structures and Algorithms"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg",
-            "name": "REST APIs"
+            "icon": "https://static-00.iconduck.com/assets.00/file-type-python-icon-512x508-7x4y03b1.png",
+            "name": "Python"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth2/oauth2-original.svg",
-            "name": "OAuth2"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-original.svg",
-            "name": "JWT"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/testing/testing-original.svg",
-            "name": "Software Testing"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
-            "name": "Socket.IO"
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+            "name": "MongoDB"
         },
         {
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kafka/kafka-original.svg",
             "name": "Kafka"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-original.svg",
-            "name": "GraphQL"
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-original.svg",
+            "name": "JWT"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/software/software-original.svg",
-            "name": "Software Architecture"
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+            "name": "Socket.IO"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth2/oauth2-original.svg",
+            "name": "OAuth2"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/testing/testing-original.svg",
+            "name": "Software Testing"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg",
+            "name": "REST APIs"
+        },
+        {
+            "icon": ""
         }
     ],
     "socialLinks": [
