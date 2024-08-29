@@ -87,6 +87,10 @@
         @apply flex flex-col items-center overflow-hidden
     }
 
+    .project-image-wrapper {
+        @apply rounded-xl flex-1 max-w-full
+    }
+
 }
 
 
