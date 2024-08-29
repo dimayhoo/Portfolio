@@ -1,7 +1,7 @@
 import React from 'react'
 import DoubleImageSection from './DoubleImageSection.jsx';
 
-function Overview({ data }) {
+function Overview({ data, index }) {
   const colorVariants = {
     'blue': 'bg-blue-500',
     'black': 'bg-black'
@@ -9,7 +9,7 @@ function Overview({ data }) {
 
 
   return (
-    <section className='mt-16 relative px-14'>
+    <section id={`projects-${index}-section`} className='mt-16 relative px-14'>
         <div className={`-z-10 absolute left-0 top-0 h-screen w-full 
         ${colorVariants[data.background]}`}></div>
         <div className='flex pb-24 pt-32 text-white'>

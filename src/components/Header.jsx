@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../data.json';
 import ContactButton from './ContactButton';
 import SocialLinks from './SocialLinks';
+import handleScroll from '../hooks/SmoothScroll';
 
 function Header() {
   return (
@@ -11,13 +12,13 @@ function Header() {
         </div>
         <div className='py-1 px-4 rounded-3xl bg-white bg-opacity-40'>
             <div className='mx-auto flex space-x-6'>
-                <a href="" className='header-link'>
+                <a href="#projects-0-section" onClick={handleScroll} className='header-link'>
                     Works, 
                 </a>
                 <button className='header-link' popovertarget="about-me-popover">
                     About, 
                 </button>
-                <a href="dmitry_savkov@mail.ru" className='header-link'>
+                <a href="mailto:dmitry_savkov@mail.ru" className='header-link'>
                     Contact
                 </a>
             </div>

@@ -3,7 +3,7 @@ import ContactButton from './ContactButton.jsx'
 
 function Hero() {
   return (
-    <section className='pt-16 h-screen flex flex-col relative'>
+    <section id="hero-section" className='pt-16 h-screen flex flex-col relative'>
         <div className="absolute top-4 left-24 text-xl">dimayhoo.</div>
         <div className='px-14 flex-1'>
             <div className='text-9xl font-montserrat uppercase font-bold'>

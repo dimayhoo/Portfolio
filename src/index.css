@@ -26,8 +26,8 @@
     }
 
     .animated-to-top::after {
-        content: 'Let\'s connect';
-        @apply absolute h-full w-full -bottom-[97%] left-0 bg-black;
+        content: 'Let\'s connect' !important;
+        @apply absolute h-full left-0 right-0 -bottom-[97%]  bg-black;
         @apply rounded-3xl text-white transition-all duration-500;
         @apply flex items-center justify-center ease-out;
     }

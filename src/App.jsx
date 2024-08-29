@@ -15,7 +15,7 @@ export default function App() {
       <Hero />
       {
         data.projects.map((project, i) => (
-          <Overview key={i} data={project} />
+          <Overview key={i} data={project} index={i} />
         ))
       }
       <Expertise data={data.skills} />
