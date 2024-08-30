@@ -1,7 +1,10 @@
 import { useRef, useEffect } from 'react'
 import useObserverElement from '../hooks/ScrollAnimations'
 
+// qq How to store images in objects and use values as sources in js?
+
 function DoubleImageSection({data}) {
+  const [img1, img2, img3, img4] = data
   const positions = {
     'center': 'items-center justify-center p-8',
     'x-center': 'items-end justify-center px-8 pt-8',
@@ -23,20 +26,28 @@ function DoubleImageSection({data}) {
   }, [])
 
   return (
-    <section className='flex flex-col space-y-16 px-14 h-[200vh]'>
-        <div className='project-image-wrapper'>
-            <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
+    <section className='flex flex-col space-y-16 px-14 h-[280vh]'>
+        <div className={`flex-[5] project-image-wrapper flex 
+            ${positions[img1.position]} ${backgrounds[img1.bg]}`}>
+            <img ref={el => images.current.push(el)} alt="image from project" 
+            src={img1.src} className='project-image'/>
         </div>
-        <div className='flex space-x-16 project-image-wrapper'>
-            <div className='flex-1'>
-                <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>                                
+        <div className='flex flex-[4] space-x-16 project-image-wrapper'>
+            <div className={`flex-1 flex 
+                ${positions[img2.position]} ${backgrounds[img2.bg]}`}>
+                <img ref={el => images.current.push(el)} alt="image from project" 
+                src={img2.src} className='project-image'/>                                
             </div>
-            <div className='flex-1'>
-                <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
+            <div className={`flex-1 flex 
+                ${positions[img3.position]} ${backgrounds[img3.bg]}`}>
+                <img ref={el => images.current.push(el)} alt="image from project" 
+                src={img3.src} className='project-image'/>
             </div>
         </div>
-        <div className='project-image-wrapper'>
-            <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
+        <div className={`flex-[5] project-image-wrapper flex 
+            ${positions[img4.position]} ${backgrounds[img4.bg]}`}>
+            <img ref={el => images.current.push(el)} alt="image from project" 
+            src={img4.src} className='project-image'/>
         </div>
     </section>
   )

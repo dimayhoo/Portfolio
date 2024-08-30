@@ -22,7 +22,26 @@
             ],
             "background": "black",
             "images": [
-                "", "", "", "" 
+                {
+                    "src": "src/assets/main.png",
+                    "position": "x-center",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/phone-chat.jpg",
+                    "position": "bottom-right",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/edit.png",
+                    "position": "x-center",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/login.png",
+                    "position": "center",
+                    "bg": ""
+                }
             ]
         },
         {
@@ -47,7 +66,26 @@
             ],
             "background": "blue",
             "images": [
-                "", "", "", ""
+                {
+                    "src": "src/assets/weather-hero.jpg",
+                    "position": "bottom-right",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/weather-login.png",
+                    "position": "bottom-left",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/weather-empty.jpg",
+                    "position": "center",
+                    "bg": ""
+                },
+                {
+                    "src": "src/assets/weather-schedule.png",
+                    "position": "x-center",
+                    "bg": ""
+                }
             ]
         }
     ],
