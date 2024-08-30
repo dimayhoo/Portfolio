@@ -23,22 +23,22 @@
             "background": "black",
             "images": [
                 {
-                    "src": "src/assets/main.png",
+                    "src": "/assets/main.png",
                     "position": "x-center",
                     "bg": "1"
                 },
                 {
-                    "src": "src/assets/phone-chat.jpg",
+                    "src": "/assets/phone-chat.jpg",
                     "position": "bottom-right",
                     "bg": "2"
                 },
                 {
-                    "src": "src/assets/edit.png",
+                    "src": "/assets/edit.png",
                     "position": "x-center",
                     "bg": "3"
                 },
                 {
-                    "src": "src/assets/login.png",
+                    "src": "/assets/login.png",
                     "position": "center",
                     "bg": "4"
                 }
@@ -67,22 +67,22 @@
             "background": "blue",
             "images": [
                 {
-                    "src": "src/assets/weather-hero.jpg",
+                    "src": "/assets/weather-hero.jpg",
                     "position": "bottom-right",
                     "bg": "5"
                 },
                 {
-                    "src": "src/assets/weather-login.png",
+                    "src": "/assets/weather-login.png",
                     "position": "x-center-top",
                     "bg": "6"
                 },
                 {
-                    "src": "src/assets/weather-empty.jpg",
+                    "src": "/assets/weather-empty.jpg",
                     "position": "center",
                     "bg": "7"
                 },
                 {
-                    "src": "src/assets/weather-schedule.png",
+                    "src": "/assets/weather-schedule.png",
                     "position": "x-center",
                     "bg": "8"
                 }
@@ -91,115 +91,100 @@
     ],
     "skills": [
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "icon": "/assets/file-type-html.svg",
             "name": "HTML"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/software/software-original.svg",
-            "name": "Software Architecture"
-        },
-        {
-            "icon": "https://static-00.iconduck.com/assets.00/file-type-nginx-icon-449x512-1lfsrxx4.png",
+            "icon": "/assets/file-type-nginx.svg",
             "name": "NGINX"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+            "icon": "/assets/file-type-firebase.svg",
             "name": "Firebase"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
-            "name": "FastAPI"
+            "icon": "/assets/django.svg",
+            "name": "Django"
         },
         {
-            "icon": "https://static-00.iconduck.com/assets.00/file-type-js-official-icon-512x512-z7m56h91.png",
+            "icon": "/assets/javascript-js-square.svg",
             "name": "Javascript (Node.js)"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            "icon": "/assets/file-type-css.svg",
             "name": "CSS"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+            "icon": "/assets/jenkins-original.svg",
             "name": "Jenkins"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+            "icon": "/assets/svelte-icon.svg",
             "name": "Svelte"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "icon": "/assets/sql-database-generic.svg",
             "name": "MySQL"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+            "icon": "/assets/flask.svg",
             "name": "Flask"
         },
         {
-            "icon": "https://static-00.iconduck.com/assets.00/file-type-tailwind-icon-512x307-l0anq79h.png",
+            "icon": "/assets/tailwind-css.svg",
             "name": "Tailwind CSS"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "icon": "/assets/react-javascript-js-framework-facebook.svg",
             "name": "React"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-original.svg",
+            "icon": "/assets/graphql.svg",
             "name": "GraphQL"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+            "icon": "/assets/redis.svg",
             "name": "Redis"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+            "icon": "/assets/git.svg",
             "name": "Git"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+            "icon": "/assets/docker.svg",
             "name": "Docker"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg",
+            "icon": "/assets/stripe.svg",
             "name": "Stripe"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+            "icon": "/assets/datastructuresandalgorithms.svg",
             "name": "Data Structures and Algorithms"
         },
         {
-            "icon": "https://static-00.iconduck.com/assets.00/file-type-python-icon-512x508-7x4y03b1.png",
+            "icon": "/assets/python.svg",
             "name": "Python"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+            "icon": "/assets/mongodb-original.svg",
             "name": "MongoDB"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kafka/kafka-original.svg",
+            "icon": "/assets/kafka-icon.svg",
             "name": "Kafka"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jwt/jwt-original.svg",
+            "icon": "/assets/jwt-seeklogo.svg",
             "name": "JWT"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+            "icon": "/assets/socket-io.svg",
             "name": "Socket.IO"
         },
         {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth2/oauth2-original.svg",
+            "icon": "/assets/oauth2.svg",
             "name": "OAuth2"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/testing/testing-original.svg",
-            "name": "Software Testing"
-        },
-        {
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg",
-            "name": "REST APIs"
-        },
-        {
-            "icon": ""
         }
     ],
     "socialLinks": [
