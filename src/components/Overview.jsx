@@ -1,5 +1,6 @@
-import React from 'react'
+import { useRef, useEffect } from 'react'
 import DoubleImageSection from './DoubleImageSection.jsx';
+import useObserverElement from '../hooks/ScrollAnimations.jsx';
 
 function Overview({ data, index }) {
   const colorVariants = {
@@ -7,9 +8,16 @@ function Overview({ data, index }) {
     'black': 'bg-black'
   }
 
+  const section = useRef();
+
+  useEffect(() => {
+    useObserverElement(section.current);
+  }, [])
+  
+
 
   return (
-    <section id={`projects-${index}-section`} className='mt-16 relative px-14'>
+    <section ref={section} id={`projects-${index}-section`} className='mt-16 relative px-14'>
         <div className={`-z-10 absolute left-0 top-0 h-screen w-full 
         ${colorVariants[data.background]}`}></div>
         <div className='flex pb-24 pt-32 text-white'>

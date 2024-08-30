@@ -25,7 +25,7 @@ function Header() {
             </div>
             <div id="about-me-popover" popover="auto" className='
             h-full fixed right-0 left-auto w-7/12 flex-col space-y-20
-            py-20 px-14 paragraph' onClick={e => {console.log(e.target.closest(), e.currentTarget)}}>
+            py-20 px-14 paragraph'>
                 <div className='flex justify-between items-center'>
                     <img src={avatarBlack} alt="my avatar" className='aspect-square rounded-xl' width={120} height={120}/>
                     <button popovertarget="about-me-popover" popovertargetaction="hid"

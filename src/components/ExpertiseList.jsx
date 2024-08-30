@@ -1,7 +1,6 @@
-import React from 'react'
+
 
 function ExpertiseList({ skill }) {
-  console.log(skill)
   return (
     <li className='double-skill'>
       <div className='skill'>

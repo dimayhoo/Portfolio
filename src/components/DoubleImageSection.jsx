@@ -1,4 +1,5 @@
-import React from 'react'
+import { useRef, useEffect } from 'react'
+import useObserverElement from '../hooks/ScrollAnimations'
 
 function DoubleImageSection({data}) {
   const positions = {
@@ -12,21 +13,30 @@ function DoubleImageSection({data}) {
 
   }
 
+  // qq How to get multiple nodeElements from html in react?
+  const images = useRef([]);
+
+  useEffect(() => {
+    for (const img of images.current) {
+        useObserverElement(img);
+    }
+  }, [])
+
   return (
     <section className='flex flex-col space-y-16 px-14 h-[200vh]'>
         <div className='project-image-wrapper'>
-            <img alt="image from project" className='project-image'/>
+            <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
         </div>
         <div className='flex space-x-16 project-image-wrapper'>
             <div className='flex-1'>
-                <img alt="image from project" className='project-image'/>                                
+                <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>                                
             </div>
             <div className='flex-1'>
-                <img alt="image from project" className='project-image'/>
+                <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
             </div>
         </div>
         <div className='project-image-wrapper'>
-            <img alt="image from project" className='project-image'/>
+            <img ref={el => images.current.push(el)} alt="image from project" className='project-image'/>
         </div>
     </section>
   )

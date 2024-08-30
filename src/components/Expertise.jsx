@@ -1,7 +1,14 @@
-import React from 'react';
+import { useRef, useEffect } from 'react'
+import useObserverElement from '../hooks/ScrollAnimations.jsx';
 import ExpertiseList from './ExpertiseList';
 
 function Expertise({ data }) {
+  const section = useRef();
+
+  useEffect(() => {
+    useObserverElement(section.current)
+  }, [])
+
   const skills = [];
 
   for (let i = 0; i < data.length; i += 2) {
@@ -9,7 +16,7 @@ function Expertise({ data }) {
   }
 
   return (
-    <section className='mt-16 w-full bg-violet-700
+    <section ref={section} className='mt-16 w-full bg-violet-700
     px-14 pt-32 h-screen text-white flex flex-col justify-between'>
       <h2 className='subheader'>Expertise</h2>
       <div className='mt-8 paragraph'>
