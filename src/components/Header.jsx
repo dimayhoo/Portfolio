@@ -3,7 +3,7 @@ import data from '../data.json';
 import ContactButton from './ContactButton';
 import SocialLinks from './SocialLinks';
 import handleScroll from '../hooks/SmoothScroll';
-import avatarBlack from '../assets/avatar-black-compressed.jpg'
+import avatarBlack from '../../public/assets/avatar-black-compressed.jpg'
 
 function Header() {
   return (
