@@ -3,12 +3,13 @@ import data from '../data.json';
 import ContactButton from './ContactButton';
 import SocialLinks from './SocialLinks';
 import handleScroll from '../hooks/SmoothScroll';
+import avatarBlack from '../assets/avatar-black-compressed.jpg'
 
 function Header() {
   return (
     <div className='z-50 fixed top-0 left-14 right-14 flex items-center justify-between h-16 text-xl'>
         <div>
-            <img src="" alt="avatar" width={20} height={20}/>
+            <img className="rounded-full" src={avatarBlack} alt="avatar" width={30} height={30}/>
         </div>
         <div className='py-1 px-4 rounded-3xl bg-white bg-opacity-40'>
             <div className='mx-auto flex space-x-6'>
@@ -26,7 +27,7 @@ function Header() {
             h-full fixed right-0 left-auto w-7/12 flex-col space-y-20
             py-20 px-14 paragraph' onClick={e => {console.log(e.target.closest(), e.currentTarget)}}>
                 <div className='flex justify-between items-center'>
-                    <img alt="my avatar" className='aspect-square w-12 rounded-xl'/>
+                    <img src={avatarBlack} alt="my avatar" className='aspect-square rounded-xl' width={120} height={120}/>
                     <button popovertarget="about-me-popover" popovertargetaction="hid"
                     className='border-[1px] border-black px-10 py-3 bg-white
                     hover:bg-black hover:text-white transition-all duration-300 rounded-[2rem]'>
