@@ -48,7 +48,7 @@
             "name": "bad-weather-notifier",
             "title": {
                 "main": "Bad Weather Notifier",
-                "second": "- online scheduler of weather notifications."
+                "second": "- online weather alert scheduler."
             },
             "description": "How often do you miss out on sports or family time due to bad weather? This application helps you stay informed about precipitation in advance. It's simple: set your schedules, and receive weather forecasts based on your location at specific times. You can choose to receive notifications once or on selected days each week. The app uses weather APIs to provide accurate and reliable forecasts. With this application, you'll never have to worry about unexpected weather ruining your plans again.",
             "properties": [

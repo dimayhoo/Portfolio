@@ -22,7 +22,7 @@
     }
 
     .bottom-line-animated::after {
-        @apply bg-white scale-x-0 origin-right transition-transform duration-500 ease-in-out;
+        @apply scale-x-0 origin-right transition-transform duration-500 ease-in-out;
     }
     
     .bottom-line-animated:hover::after {
@@ -77,7 +77,7 @@
     }
 
     .subheader {
-        @apply text-6xl font-normal
+        @apply text-6xl font-normal font-montserrat
     }
 
     .link {

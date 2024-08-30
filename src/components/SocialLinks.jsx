@@ -8,7 +8,8 @@ function SocialLinks({ color='white', textSize='3xl' }) {
         {data.socialLinks.map(link => (
             <a key={link.name} href={link.href} 
             className={`paragraph link
-            ${ textSize === '3xl' ? 'text-3xl' : ''}`}>{link.name}</a>
+            ${ textSize === '3xl' ? 'text-3xl' : ''}
+            ${ color === 'black' ? 'after:bg-black before:bg-gray-400' : 'after:bg-white'}`}>{link.name}</a>
         ))}
     </div>
   )

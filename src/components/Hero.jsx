@@ -10,7 +10,7 @@ function Hero() {
                 <h1>dmitry savkov</h1>
                 <h1>fullstack dev</h1>
             </div>
-            <p className='max-w-xl text-4xl  my-12'>
+            <p className='max-w-xl text-4xl  my-12 font-medium'>
                 I help people building websites according 
                 to their needs and make this experience delightful.
             </p>
