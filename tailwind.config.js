@@ -6,7 +6,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

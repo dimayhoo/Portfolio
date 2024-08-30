@@ -25,22 +25,22 @@
                 {
                     "src": "src/assets/main.png",
                     "position": "x-center",
-                    "bg": ""
+                    "bg": "1"
                 },
                 {
                     "src": "src/assets/phone-chat.jpg",
                     "position": "bottom-right",
-                    "bg": ""
+                    "bg": "2"
                 },
                 {
                     "src": "src/assets/edit.png",
                     "position": "x-center",
-                    "bg": ""
+                    "bg": "3"
                 },
                 {
                     "src": "src/assets/login.png",
                     "position": "center",
-                    "bg": ""
+                    "bg": "4"
                 }
             ]
         },
@@ -69,22 +69,22 @@
                 {
                     "src": "src/assets/weather-hero.jpg",
                     "position": "bottom-right",
-                    "bg": ""
+                    "bg": "5"
                 },
                 {
                     "src": "src/assets/weather-login.png",
-                    "position": "bottom-left",
-                    "bg": ""
+                    "position": "x-center-top",
+                    "bg": "6"
                 },
                 {
                     "src": "src/assets/weather-empty.jpg",
                     "position": "center",
-                    "bg": ""
+                    "bg": "7"
                 },
                 {
                     "src": "src/assets/weather-schedule.png",
                     "position": "x-center",
-                    "bg": ""
+                    "bg": "8"
                 }
             ]
         }

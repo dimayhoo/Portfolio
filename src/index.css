@@ -40,8 +40,9 @@
         @apply bottom-0
     }
 
+    /** qq How to create font themes in tailwind? */
     .paragraph {
-        @apply text-2xl
+        @apply text-2xl 
     }
 
     .iterating-list-item {
@@ -102,6 +103,10 @@
     .live-preview-tooltip {
         @apply absolute -right-2 w-52 bg-white leading-4 text-base -bottom-[3.75rem] text-gray-900; 
         @apply text-start p-2 rounded-xl transition-all opacity-0 ease-in pointer-events-none group-hover:opacity-75
+    }
+
+    .project-image {
+        @apply min-h-full min-w-full object-cover object-left-top
     }
 }
 
