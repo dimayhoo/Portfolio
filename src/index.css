@@ -15,10 +15,14 @@
     .bottom-line-animated, .animated-to-top {
         @apply relative overflow-hidden; 
     }
-    
-    .bottom-line-animated::after {
+
+    .bottom-line-animated::before, .bottom-line-animated::after {
         content: '';
-        @apply absolute w-full h-0.5 bg-white bottom-0 left-0 scale-x-0 origin-right transition-transform duration-200 ease-in;
+        @apply absolute w-[93%] h-[1px] mx-auto bg-gray-500 bottom-0 left-1/2 -translate-x-1/2
+    }
+
+    .bottom-line-animated::after {
+        @apply bg-white scale-x-0 origin-right transition-transform duration-500 ease-in-out;
     }
     
     .bottom-line-animated:hover::after {
