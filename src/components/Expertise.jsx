@@ -27,7 +27,7 @@ function Expertise({ data }) {
         <p className='ml-6 mt-2 text-xl text-gray-200'>— Alvin Toffler</p>
       </div>
       <ul className='pb-2 flex flex-1 items-center'>
-        <div className='relative space-x-2 flex justify-center overflow-hidden'>
+        <div className='relative space-x-2 flex justify-center'>
           {skills.map((item, i) => (
             <ExpertiseList key={'skill' + i} skill={item} />
           ))}

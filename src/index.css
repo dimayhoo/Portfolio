@@ -105,6 +105,10 @@
         @apply text-start p-2 rounded-xl transition-all opacity-0 ease-in pointer-events-none group-hover:opacity-75
     }
 
+    .skill-tooltip {
+        @apply w-fit left-1/2 -translate-x-1/2 whitespace-nowrap z-10
+    }
+
     .project-image {
         @apply min-h-full min-w-full object-cover object-left-top
     }
