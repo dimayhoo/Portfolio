@@ -5,10 +5,10 @@ import useObserverElement from '../hooks/ScrollAnimations'
 function DoubleImageSection({data}) {
   const [img1, img2, img3, img4] = data
   const positions = {
-    'center': 'p-12',
-    'x-center': 'px-16 pt-12',
-    'x-center-top': 'px-16 pb-12',
-    'bottom-right': 'pl-16 pt-12'
+    'center': 'image-center',
+    'x-center': 'image-x-center image-x-center-bottom',
+    'x-center-top': 'image-x-center image-x-center-top',
+    'bottom-right': 'image-bottom-right image-x-center-bottom'
   }
 
   const backgrounds = {
@@ -31,13 +31,13 @@ function DoubleImageSection({data}) {
   }, [])
 
   return (
-    <section className='flex flex-col space-y-16 px-14'>
+    <section className='flex flex-col space-y-6 sm:space-y-9 md:space-y-12 lg:space-y-14 xl:space-y-16 px-4 sm:px-7 md:px-10 lg:px-12 xl:px-14'>
         <div className={`flex-[5] project-image-wrapper
         ${positions[img1.position]} ${backgrounds[img1.bg]}`}>
             <img ref={el => images.current.push(el)} alt="image from project" 
             src={img1.src} className='project-image'/>
         </div>
-        <div className='flex flex-[4] space-x-16 project-image-wrapper'>
+        <div className='flex flex-[4] flex-col space-y-6 sm:flex-row sm:space-x-16 project-image-wrapper'>
             <div className={`flex-1 rounded-xl
             ${positions[img2.position]} ${backgrounds[img2.bg]}`}>
                 <img ref={el => images.current.push(el)} alt="image from project" 

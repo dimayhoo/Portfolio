@@ -17,17 +17,17 @@ function Expertise({ data }) {
 
   return (
     <section ref={section} className='mt-16 w-full bg-violet-700
-    px-14 pt-32 h-screen text-white flex flex-col justify-between'>
+    px-4 sm:px-7 md:px-10 lg:px-12 xl:px-14 pt-32 h-screen text-white flex flex-col justify-between'>
       <h2 className='subheader'>Expertise</h2>
       <div className='mt-8 paragraph'>
         <p className='text-gray-100 relative max-w-lg after:absolute after:left-0 
         after:w-0.5 after:bg-white after:top-0 pl-4 after:h-full'>
           The illiterate of the future will not be the person who cannot read. It will be the person who does not know how to learn.
         </p>
-        <p className='ml-6 mt-2 text-xl text-gray-200'>— Alvin Toffler</p>
+        <p className='ml-6 mt-2 smaller-paragraph text-gray-200'>— Alvin Toffler</p>
       </div>
-      <ul className='pb-2 flex flex-1 items-center'>
-        <div className='relative space-x-2 flex justify-center'>
+      <ul className='pb-2 flex flex-1 items-center justify-center overflow-x-hidden'>
+        <div className='relative space-x-1 lg:space-x-2 flex'>
           {skills.map((item, i) => (
             <ExpertiseList key={'skill' + i} skill={item} />
           ))}
