@@ -47,7 +47,6 @@ function Overview({ data, index }) {
                         <a href={`${data.links[0].href}`} className='project-link'>
                             {data.links[0].name}
                         </a>
-                        {/** qq How to use group-hover in tailwind? */}
                         <a href={`${data.links[1].href}`} className='project-link relative group'>
                             <div className='live-preview-tooltip'>
                                 <p>Loading is slow because of using free hosting.</p>

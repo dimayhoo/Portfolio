@@ -1,7 +1,6 @@
 import { useRef, useEffect } from 'react'
 import useObserverElement from '../hooks/ScrollAnimations'
 
-// qq How to store images in objects and use values as sources in js?
 
 function DoubleImageSection({data}) {
   const [img1, img2, img3, img4] = data
@@ -23,7 +22,6 @@ function DoubleImageSection({data}) {
     '8': 'bg-gradient-to-br from-purple-400 via-blue-200 to-purple-300',
   }
   
-  // qq How to get multiple nodeElements from html in react?
   const images = useRef([]);
 
   useEffect(() => {

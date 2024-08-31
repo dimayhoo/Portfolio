@@ -1,4 +1,3 @@
-// qq Explain two methods of creating scroll animations (How to create a simple slide in?). How to persist the styles of resulted animation?
 const observer = new IntersectionObserver(
     entries => {
         entries.forEach(entry => {

@@ -9,9 +9,6 @@
 }
 
 @layer components {
-    /* qq How to control styles by data-attribute and why is it useful? */ 
-    /* qq What is the problem of using transition with transform? */
-    /* qq How to add bottom moving border on hover of a link? */
     .bottom-line-animated, .animated-to-top {
         @apply relative overflow-hidden; 
     }
@@ -40,7 +37,6 @@
         @apply bottom-0
     }
 
-    /** qq How to create font themes in tailwind? */
     .paragraph {
         @apply text-2xl 
     }
