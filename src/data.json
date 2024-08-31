@@ -159,7 +159,7 @@
             "name": "Stripe"
         },
         {
-            "icon": "/assets/datastructuresandalgorithms.svg",
+            "icon": "/assets/leetcode.svg",
             "name": "Data Structures and Algorithms"
         },
         {
@@ -183,7 +183,7 @@
             "name": "Socket.IO"
         },
         {
-            "icon": "/assets/oauth2.svg",
+            "icon": "/assets/oauth.svg",
             "name": "OAuth2"
         }
     ],
