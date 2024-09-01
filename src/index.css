@@ -54,7 +54,7 @@
     }
 
     .about-paragraph {
-        @apply text-lg xl:text-xl
+        @apply text-base sm:text-lg xl:text-xl
     }
 
     .iterating-list-item {
